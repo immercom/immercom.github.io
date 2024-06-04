@@ -9,10 +9,11 @@ body {
 }
 
 .jumbotron {
-  background-image: url("logo_sydney4_full.jpg");
+  background-image: url("background.png");
   background-size: cover;
+  background-position: center;
   color: #fffff;
-  height:500px;
+  height:433px;
 }
 
 .small-text {
