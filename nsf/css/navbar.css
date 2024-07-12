@@ -1,0 +1,21 @@
+.navbar-nav .nav-link {
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    color: #fff; /* Default color */
+  }
+  
+  .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #f0f0f0; /* Color of the underline */
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-link:hover::after {
+    width: 100%; /* Extend the underline across the whole text on hover */
+  }
