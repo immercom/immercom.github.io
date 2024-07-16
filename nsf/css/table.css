@@ -1,0 +1,41 @@
+.event-schedule {
+    width: 90%; /* Sets the width of the table */
+    margin: 20px auto; /* Centers the table on the page with some margin around it */
+    border-collapse: collapse; /* Collapses borders to remove space between them */
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1); /* Subtle shadow for 3D effect */
+    background-color: #ffffff; /* White background for cleanliness */
+    font-family: 'Arial', sans-serif; /* Modern font for readability */
+}
+
+/* Table headers */
+.event-schedule th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text for contrast */
+    font-weight: bold; /* Makes header text bold */
+    padding: 12px 15px; /* Adds space inside each header cell */
+    border-bottom: 1px solid #ddd; /* Adds a light line under headers for separation */
+    text-align: left; /* Text alignment for headers */
+}
+
+/* Table cells */
+.event-schedule td {
+    padding: 12px 15px; /* Adds space inside each cell */
+    border-bottom: 1px solid #ddd; /* Light line under each row for separation */
+    text-align: left; /* Text alignment for table cells */
+}
+
+/* Hover effect for rows */
+.event-schedule tr:hover {
+    background-color: #f5f5f5; /* Light grey background on row hover for interactivity */
+}
+
+.event-schedule caption {
+    caption-side: top; /* Ensures the caption is at the top, though this is default */
+    font-size: 1.5em; /* Larger text for the caption */
+    font-weight: bold; /* Makes the caption text bold */
+    color: #333; /* Dark grey color for the text */
+    padding: 10px; /* Adds space around the text */
+    text-align: center; /* Centers the caption text */
+    background-color: #f9f9f9; /* Light grey background for the caption */
+    border-bottom: 1px solid #ccc; /* Adds a separating line below the caption */
+}
