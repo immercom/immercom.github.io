@@ -10,10 +10,10 @@ body {
 
 .jumbotron {
   position: relative; 
-  background-image: url("../images/mason-square.jpg");
+  background-image: url("../images/dc.jpg");
   background-size: cover;
   color: #ffffff; 
-  height: 500px;
+  height: 433px;
   overflow: hidden; 
 }
 
