@@ -1,0 +1,21 @@
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    display: block;
+  }
+}
+
+body {
+  padding-top: 3.5rem;
+}
+
+.jumbotron {
+  background-size: cover;
+  background-position: center;
+  background-image: url("background.jpg");
+  color: #fffff;
+  height:433px;
+}
+
+.small-text {
+  font-size: 0.85rem;
+}
