@@ -1,0 +1,57 @@
+/* General Navbar Styling */
+.navbar {
+  background-color: #343a40; /* Dark background for the navbar */
+  padding: 0.5rem 1rem; /* Padding for some breathing room around items */
+}
+
+/* Navbar Link Styling with Underline Animation */
+.navbar-nav .nav-link {
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  color: #fff; /* Default color */
+  padding: 10px 15px; /* Adequate padding for clickable area */
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f0f0f0; /* Color of the underline */
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.active > .nav-link {
+  background-color: #555; /* Darker background on hover */
+  color: #fff; /* White text on hover for better visibility */
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-item.active > .nav-link::after {
+  width: 100%; /* Extend the underline across the whole text on hover or when active */
+}
+
+/* Dropdown Styling */
+.navbar-nav .dropdown-menu {
+  border: none; /* Removes the default border */
+  background-color: #444; /* Slightly lighter than the navbar for distinction */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* Adds depth with a shadow */
+  border-radius: 0.25rem; /* Rounded corners for the dropdown */
+}
+
+/* Dropdown Link Styling */
+.navbar-nav .dropdown-menu .dropdown-item {
+  color: #f8f9fa; /* Maintains color consistency with nav links */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transitions for hover states */
+}
+
+/* Hover Effect on Dropdown Items */
+.navbar-nav .dropdown-menu .dropdown-item:hover,
+.navbar-nav .dropdown-menu .dropdown-item:focus {
+  background-color: #555; /* Dark background on hover for dropdown items */
+  color: #fff; /* White text on hover for readability */
+}
